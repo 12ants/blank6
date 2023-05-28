@@ -8,17 +8,14 @@ body {
     overflow-x: hidden;
     overflow-y: overlay;
 }
-
 html {
     margin: 0;
     overflow-x: hidden;
     overflow-y: overlay;
 }
-
 .site-header {
     text-align: right;
 }
-
 .site-header,
 article,
 section {
@@ -29,25 +26,21 @@ section {
     transform: translatex(-1px);
     margin: auto;
 }
-
 .site-header,
 aside .site-header,
 section {
     margin: 1em auto;
     /* padding: 1em; */
 }
-
 .site-header,
 main {
     margin: auto;
 }
-
 article {
     max-width: 1024px !important;
     margin: 9em auto;
     /* padding: 0 1em; */
 }
-
 .wp-block-image img,
 figure.wp-block-gallery,
 iframe,
@@ -59,12 +52,10 @@ video {
     margin: 0;
     /* margin-left: -1em; */
 }
-
 figure.wp-block-gallery,
 figure.wp-block-gallery.has-nested-images {
     gap: 0 !important;
 }
-
 iframe,
 embed {
     resize: ;
@@ -75,14 +66,12 @@ embed {
     margin-bottom: -4px;
     background: #000000;
 }
-
 .cat-links,
 .entry-footer,
 .entry-meta,
 .post-navigation {
     display: none;
 }
-
 .entry-title {
     outline: 1px solid #6d6d6d;
     background: #ffffff;
@@ -90,7 +79,6 @@ embed {
     margin-block: 0px !important;
     margin-inline: 0px !important;
 }
-
 .entry-header {
     display: ;
     text-align: right;
@@ -102,7 +90,6 @@ embed {
     padding: ;
     margin: ;
 }
-
 aside .wp-block-social-links a,
 aside a,
 aside a:active,
@@ -121,7 +108,6 @@ aside a:visited {
     text-align: center;
     gap: ;
 }
-
 aside a:active:hover,
 aside a:hover,
 aside a:hover {
@@ -129,7 +115,6 @@ aside a:hover {
     transition: .4s;
     padding: 1em !important;
 }
-
 a,
 a:active,
 a:visited {
@@ -137,31 +122,26 @@ a:visited {
     transition: 0.4s;
     background-color: transparent;
 }
-
 a:active:hover,
 a:hover,
 a:visited:hover {
     transition: 0.4s;
     color: #000;
 }
-
 h1,
 h2,
 h3,
 h4 {
     color: #666;
     text-decoration: underline dotted #bbb;
-
     display: block;
     font-size: 1.2em;
 }
-
 .aligncenter,
 .alignleft,
 .alignright {
     margin: auto !important;
 }
-
 figure {
     display: block;
     margin-block-start: 0 !important;
@@ -169,7 +149,6 @@ figure {
     margin-inline-start: 0 !important;
     margin-inline-end: 0 !important;
 }
-
 p,
 form,
 ul,
@@ -184,18 +163,15 @@ h4 {
     margin-inline: 1em;
     padding-inline: 01em !important;
 }
-
 ::-webkit-scrollbar {
     width: 8px;
     background: 0 0;
     border-radius: 8px;
 }
-
 ::-webkit-scrollbar-thumb {
     background: rgb(22 22 22/24%);
     border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 215, 215, 0.4);
 }
